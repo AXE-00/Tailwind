@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        myFont: ['Kalnia Glaze', 'Nunito']
+      }
+    },
   },
   plugins: [],
 }
